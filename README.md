@@ -16,8 +16,8 @@ The dataset used in this project contains information about various Pokémon, in
 ## Part 1: Exploratory Data Analysis (EDA)
 
 ### Files
-- `pokemon_eda.ipynb`: Jupyter notebook containing the EDA code and visualizations
-- `pokemon.csv`: The original Pokémon dataset
+- `Pokemon_EDA_Code.ipynb`: Jupyter notebook containing the EDA code and visualizations
+- `Pokemon.csv`: The original Pokémon dataset
 
 ### Key Features
 - Comprehensive analysis of Pokémon attributes
@@ -34,8 +34,8 @@ The dataset used in this project contains information about various Pokémon, in
 ## Part 2: Predictive Modeling
 
 ### Files
-- `pokemon_predictor.py`: Python script for data preprocessing, model training, and evaluation
-- `pokemon_resampled.csv`: The resampled dataset after addressing class imbalance
+- `Pokemon_Predictor.ipynb`: Python script for data preprocessing, model training, and evaluation
+- `Pokemon_resampled.csv`: The resampled dataset after addressing class imbalance
 
 ### Key Features
 - Data resampling using ADASYN (oversampling) and NearMiss (undersampling) to address class imbalance
@@ -62,19 +62,14 @@ The dataset used in this project contains information about various Pokémon, in
    cd pokemon-legendary-prediction
    ```
 
-2. Install the required libraries:
+2. Run the EDA:
    ```
-   pip install -r requirements.txt
-   ```
-
-3. Run the EDA:
-   ```
-   jupyter notebook pokemon_eda.ipynb
+   jupyter notebook Pokemon_EDA_Code.ipynb
    ```
 
 4. Run the predictive model:
    ```
-   python pokemon_predictor.py
+   python Pokemon_Predictor_Code.ipynb
    ```
 
 ## Future Work
@@ -93,4 +88,3 @@ DURGA PRASAD KAVALI
 ## License
 This project is open-sourced under the [MIT license](LICENSE).
 ```
-
